@@ -9,6 +9,7 @@
 .nav-link:hover,
 .nav-link:focus,
 .navbar-toggler:hover,
+.navbar-toggler:focus {
 	color: #fd3f81!important;
 }
 
