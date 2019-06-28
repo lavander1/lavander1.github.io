@@ -1,0 +1,329 @@
+@media (min-width: 1600px) {
+    h1 {
+        font-size: 230px;
+    }
+    .categories__content {
+        max-height: 800px;
+    }
+}
+/* 1599px - 1200px or less */
+@media (max-width: 1599px) {
+    .products__item {
+        height: 300px;
+    }
+}
+/* 1199px - 992px or less */
+@media (max-width: 1199px) {
+    .service__item h6 {
+        margin: 30px 0 40px;
+    }
+    .products__item {
+        height: 250px;
+    }
+}
+/* 991px - 768px or less */
+@media (max-width: 991px) {
+    header {
+        padding-bottom: 100px;
+    }
+    .header__menu li {
+      margin-right: 23px;
+    }
+    .header__title {
+        padding: 100px 0;
+    }
+    .categories__content .left {
+        width: 100%;
+        height: 30%;
+    }
+    .categories__content .right {
+        width: 100%;
+        height: 70%;
+    }
+    .categories__content__title {
+        order: -1;
+    }
+    .categories__content .right .food { 
+        width: 60%;
+    }
+    .categories__content .right .meat,
+    .categories__content .right .fruits {
+        width: 50%;
+    }
+    .slogan__img img {
+        transform: scale(-1, -1) 
+    }
+    .slogan__text {
+        padding: 30px;
+    }
+    .recipe:nth-child(1) .recipe__photo,
+    .recipe:nth-child(3) .recipe__photo {
+        order: -1;
+    }
+    .recipe:nth-child(2) .recipe__photo {
+        order: 0;
+    }
+    .reviews blockquote {
+        padding: 70px 10px 60px 10px;
+        margin: 0;
+    }
+    .reviews blockquote:before {
+        left: 50%;
+        margin-left: -25px;
+        top: 40px;
+        transform: rotate(180deg);
+    }
+    .flex-control-nav {
+        right: 10px;
+    }
+    .partners__logos {
+        flex-wrap: wrap;
+    }
+    footer .navigation ul:last-child {
+        margin: 0 0 0 50px;
+    }
+}
+/* 767px - 576px or less */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 150px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    header nav .logo {
+        position: relative;
+    }
+    header nav .logo img {
+        height: 120px;
+    }
+    .header__nav {
+        display: none;
+        position: fixed;
+        background: rgb(0, 0, 0, 0.8);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        min-height: 100vh;
+        z-index: 90;
+        flex-direction: column;
+        padding-top: 10vh;
+        overflow-y: scroll;
+    }
+    .header__menu {
+        flex-direction: column;
+    }
+    .header__menu li {
+        text-align: center;
+        padding: 20px 0;
+        margin-right: 0;
+    }
+    .header__menu .current {
+        border-bottom: none;
+    }
+    .header__menu .current a {
+        color: #fcdb5a;
+    }
+    .header__touch {
+        justify-content: space-around;
+        padding: 30px 0;
+    }
+    .header__toggler {
+        display: block;
+        z-index: 100;
+    }
+    .header__title {
+        padding: 80px 0;
+    }
+    .slogan__img {
+        display: none;
+    }
+    .slogan .slogan__text {
+        position: static;
+        text-align: center;
+        animation-delay: 0s;
+    }
+    .services {
+        padding: 100px 0;
+    }
+    .products__item a {
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+    }
+    footer .contacts {
+        margin-top: 50px;
+    }
+}
+/* 575px - 480px or less */
+@media (max-width: 575px) {
+    h2 {
+        font-size: 30px;
+    }
+    .heading p {
+        font-size: 16px;
+    }
+    .header__menu li {
+        text-align: center;
+        padding: 13px 0;
+        margin-right: 0;
+    }
+    .header__touch {
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .slogan__text {
+        font-size: 80px;
+    }
+    .services {
+        padding: 80px 0;
+    }
+    .perfect_food {
+        padding: 100px 0 200px;
+    }
+    .cakes .title {
+        font-size: 180px;
+        text-align: center;
+    }
+    .cakes .sticker img {
+        padding-top: 80px;
+    }
+    .progress__item .icon {
+        padding: 0;
+        text-align: right;
+    }
+    .progress__item .icon img {
+        width: 150px;
+    }
+    .progress__item .text {
+        padding-left: 30px;
+    }
+    .progress__item .text .number {
+        font-size: 45px;
+    }
+    .progress {
+        padding: 100px 0;
+    }
+    .reviews {
+        padding: 100px 0 120px;
+    }
+    .reviews blockquote {
+        padding: 70px 20px 60px 20px;
+        font-size: 18px;
+    }
+    .reviews .quote__author {
+        padding: 0 20px;
+    }
+    .flex-control-nav {
+       width: 100%;
+       bottom: -50px;
+       right: 0;
+    }
+    .partner {
+        padding: 20px 80px;
+    }
+    footer .logo {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer .navigation {
+        justify-content: space-around;
+        width: 100%;
+    } 
+    footer .navigation ul {
+        text-align: center;
+    }
+    footer .navigation ul:last-child {
+        margin: 0;
+    }
+    footer .contacts {
+        text-align: center;
+    }
+    footer .socia_medias {
+        position: static;
+        margin-top: 50px;
+    }
+    footer .socia_medias li {
+        margin: 0 13px;
+    }
+    footer .copyright {
+        margin-top: 40px;
+    }
+    footer .copyright .rights {
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+/* 479px - 320px or less */
+@media (max-width: 479px) {
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .categories__content {
+        max-height: none;
+    }
+    .categories__content .left {
+        width: 100%;
+        height: 200px;
+        order: 1;
+    }
+    .categories__content .right {
+        height: auto;
+    }
+    .categories__content__title,
+    .categories__content .right .food,
+    .categories__content .right .meat,
+    .categories__content .right .fruits {
+        width: 100%;
+        height: 200px;
+    } 
+    .categories__content .categories__content__title {
+        height: auto;
+    }
+    .categories__content h2 {
+        text-align: center;
+    }
+    .slogan__text {
+        font-size: 60px;
+    }
+    .services__list .col-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .recipe {
+        flex-wrap: wrap;
+        max-height: none;
+        margin-bottom: 30px;
+    }
+    .recipe__photo {
+        max-height: 200px;
+    }
+    .recipe:nth-child(2) .recipe__photo,
+    .recipe:nth-child(4) .recipe__photo {
+        order: -1;
+    }
+    .recipe__text,
+    .recipe__photo {
+        width: 100%;
+    }
+    .cakes .title {
+        font-size: 130px;
+        line-height: 130px;
+    }
+    .cakes {
+        padding-bottom: 100px;
+        background-position: 50% 0%;
+    }
+    .progress__item .icon img {
+        width: 120px;
+    }
+    .footer_navigation {
+        flex-wrap: wrap;
+    }
+    .partner {
+        padding: 20px 50px;
+    }
+}
